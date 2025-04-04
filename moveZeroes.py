@@ -15,7 +15,6 @@ j = 0
 
 while j < len(nums):
     if nums[j] != 0: 
-        print(i)
         temp = nums[i]
         nums[i] = nums[j]
         nums[j] = temp

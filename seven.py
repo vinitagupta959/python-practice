@@ -21,9 +21,13 @@ Test Case1:
  """
  
 num=int(input())
-if num>=1000:
+ques=0
+if num>999 and num<10000:
     if num%7==0:
-        print("Yes")
+        ques=num//7
+        print(ques)
+        if ques%2==0:
+            print("Yes")
     else:
         print("No")
 else:

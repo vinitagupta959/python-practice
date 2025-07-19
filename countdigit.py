@@ -37,3 +37,9 @@ def countDigits(num):
 # then We add 1 to log10(num) because the number of digits is always one more than the integer part of log base 10 of a number. Then we use int() to remove the decimal and get the final digit count.
 
 print(countDigits(54563))
+
+
+
+# Time Complexity: O(1) (Constant Time)
+# log10() is a built-in function and performs in constant time.
+# This method is faster and more efficient for large numbers.

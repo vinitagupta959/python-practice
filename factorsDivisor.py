@@ -29,10 +29,7 @@ Jab hum result list banate hain, to chahe vo ek hi variable ke andar ho, uske an
 
 
 """second way
-In the second approach, we observed that most of the factors of a number lie between 1 and num // 2. This is because no number greater than num // 2 (except the number itself) can divide num. For example, for num = 6, its factors are: 1, 2, 3, and 6. So we can run the loop only till num // 2, and finally add num to the list (since every number is divisible by itself).
-
-"""
- 
+In the second approach, we observed that most of the factors of a number lie between 1 and num // 2. This is because no number greater than num // 2 (except the number itself) can divide num. For example, for num = 6, its factors are: 1, 2, 3, and 6. So we can run the loop only till num // 2, and finally add num to the list (since every number is divisible by itself)."""
 def factorsDivisor2(num):
     result=[]
     for i in range(1, num//2+1):

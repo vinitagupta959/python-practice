@@ -31,3 +31,8 @@ if withoutBribe<withBribe:
     print(withoutBribe)
 else:
     print(withBribe)
+
+
+
+
+ 
